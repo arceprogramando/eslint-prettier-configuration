@@ -3,5 +3,13 @@
   "singleQuote": true,
   "tabWidth": 2,
   "useTabs": false,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "printWidth": 100
+      }
+    }
+  ]
 }
