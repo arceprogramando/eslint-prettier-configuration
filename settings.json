@@ -1,0 +1,38 @@
+// configuracion vsc
+
+{
+  "editor.fontFamily": "Jetbrains Mono , 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "turboConsoleLog.quote": "'",
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "workbench.editor.showTabs": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "inlineChat.mode": "preview",
+  "glassit.alpha": 230,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "window.zoomLevel": -1,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.env.linux": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // comillas
+
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "typescriptreact.preferences.quoteStyle": "single",
+  "workbench.colorTheme": "Bearded Theme Arc",
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.iconTheme": "eq-material-theme-icons-light"
+}
