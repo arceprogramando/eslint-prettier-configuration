@@ -7,3 +7,5 @@
 - 🧼 Cleanup: Utiliza este emoji cuando realices tareas delimpieza de código, sin cambios funcionales.
 - 🚀 Refactor: Marca commits que mejoren el rendimiento de la aplicación o cambios funcionales.
 - 🚧 Work in Progress: Usarlo para indicar que el commit contiene trabajo en progreso que no está listo para ser implementado.
+- 📚 student in progress : usarlo para indicar que es un elemento a estudiar a futuro
+- 📁 Added archives : Commit para publicaciones donde se agreguen archivos necesarios
