@@ -1,38 +1,40 @@
-// configuracion vsc
-
 {
-  "editor.fontFamily": "Jetbrains Mono , 'Droid Sans Mono', 'monospace', monospace",
+  // Configuración de la interfaz visual de VS Code.
+  "workbench.colorTheme": "GitHub Dark Default", // Define el tema de color de la interfaz de usuario de VS Code.
+  "glassit.alpha": 220, // Configura la transparencia de la ventana de VS Code (requiere la extensión GlassIt-VSC).
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Droid Sans Mono', 'monospace'", // Define la fuente del editor de código.
   "editor.fontLigatures": true,
-  "turboConsoleLog.quote": "'",
-  "turboConsoleLog.addSemicolonInTheEnd": true,
-  "workbench.editor.showTabs": true,
-  "workbench.settings.applyToAllProfiles": [],
-  "inlineChat.mode": "preview",
-  "glassit.alpha": 230,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "window.zoomLevel": -1,
-  "explorer.confirmDelete": false,
-  "terminal.integrated.env.linux": {},
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // comillas
+  "editor.fontSize": 13, // Define el tamaño de fuente del editor de código.
+  "editor.fontWeight": "800", // Define el peso de la fuente del editor de código.
+  "editor.cursorBlinking": "smooth", // Define el estilo de parpadeo del cursor del editor de código.
+  "editor.cursorWidth": 1, // Define el ancho del cursor del editor de código.
+  "editor.cursorStyle": "line", // Define el estilo del cursor del editor de código.
+  "editor.minimap.enabled": false, // Define si se muestra el minimapa en el editor de código.
+  "editor.lineHeight": 16, // Define la altura de línea del editor de código.
+  
+  // Configuración de la turboconsola
+  "turboConsoleLog.quote": "'", // Define el tipo de comillas que Turbo Console Log debe usar al generar registros de consola.
+  "turboConsoleLog.semicolon": true, // Define si Turbo Console Log debe agregar un punto y coma al final de la línea.
+  "turboConsoleLog.space": true, // Define si Turbo Console Log debe agregar un espacio después de la coma.
+  
+  // Configuración de la velocidad de escritura 
+  "emmet.useInlineCompletions": true, // Habilita las sugerencias de autocompletado de Emmet mientras escribes.
+  "console-ninja.featureSet": "Community", // Configura el conjunto de características de la extensión Console Ninja.
+  "editor.formatOnSave": true, // Habilita el formateo automático al guardar un archivo.
+  "editor.formatOnPaste": true, // Habilita el formateo automático al pegar contenido.
+  "editor.formatOnType": true, // Habilita el formateo automático mientras escribes.
+  "terminal.integrated.fontSize": 16,
+  "window.zoomLevel": -1, // Define el tamaño de fuente de la terminal integrada.
 
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "typescriptreact.preferences.quoteStyle": "single",
-  "workbench.colorTheme": "Bearded Theme Arc",
-  "workbench.list.smoothScrolling": true,
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
-  "terminal.integrated.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "workbench.iconTheme": "eq-material-theme-icons-light"
+  // inicializacion prettier
+  "prettier.useEditorConfig": true, // Habilita la configuración de Prettier desde el archivo .editorconfig.
+  "prettier.tabWidth": 2, // Define el ancho de tabulación que Prettier debe usar.
+  "prettier.printWidth": 80, // Define el ancho de línea que Prettier debe usar.
+  "prettier.proseWrap": "always", // Define si Prettier debe envolver el texto cuando exceda el ancho de línea.
+  // Configuracion de prettier
+  "prettier.singleQuote": true, // Define si Prettier debe usar comillas simples en lugar de comillas dobles.
+  "prettier.trailingComma": "all", // Define si Prettier debe agregar comas finales en objetos y arreglos.
+  "prettier.arrowParens": "always", // Define si Prettier debe agregar paréntesis alrededor de los argumentos de función de flecha.
+  "prettier.enable": true,
+  "terminal.integrated.env.linux": {}, // Habilita el formateo automático con Prettier.
 }
